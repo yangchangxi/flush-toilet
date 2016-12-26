@@ -1,0 +1,77 @@
+
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+
+    <title>我的演说 - @演说.io</title>
+
+    <meta name="keywords" content="演说，yanshuo, yanshuo.io, 演说.io, 空中演说, 展示文稿, HTML 展示文稿, Web 展示文稿" />
+  	  <meta name="description" content="创作真正跨平台的 HTML5 展示文稿，让你的分享到达世界的任何一个角落" />
+
+  		<meta name="apple-mobile-web-app-capable" content="yes">
+  		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+  		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+  		<!-- Reveal base style -->
+  		<link rel="stylesheet" href="https://yanshuo.io/assets/player/css/reveal.min.css">
+
+  		<!-- Yanshuo.io seed style -->
+  		<link rel="stylesheet" href="https://yanshuo.io/assets/player/atcss/at-block.min.css">
+  		<link rel="stylesheet" href="https://yanshuo.io/assets/player/atcss/at-hljs-theme-bundler.min.css">
+  		<link rel="stylesheet" href="https://yanshuo.io/assets/player/atcss/at-reveal-theme-bundler.min.css">
+
+  		<!-- Source Sans Web Fonts -->
+  		<link rel="stylesheet" href="https://yanshuo.io/assets/player/lib/font/source-sans-pro/source-sans-pro.css">
+
+      <!-- Printing and PDF exports -->
+      <script>
+        var link = document.createElement( 'link' );
+        link.rel = 'stylesheet';
+        link.type = 'text/css';
+        link.href = window.location.search.match( /print-pdf/gi ) ? 'https://yanshuo.io/assets/player//css/print/pdf.css' : '';
+        document.getElementsByTagName( 'head' )[0].appendChild( link );
+      </script>
+
+      <!--[if lt IE 9]>
+  		<script src="lib/js/html5shiv.js"></script>
+  		<![endif]-->
+
+  		<!-- style for "critical path" -->
+  		<style>
+  	  </style>
+  </head>
+  <body>
+    <!-- TODO: a lightweighted loading -->
+
+    <!-- main slides -->
+    <div id="YS" class="at-code-lh-12" style="width:100%;height:100%;" data-reveal-theme="wechat" data-highlight-theme="zenburn" data-ys-title="我的演说" data-ys-user="Chauncey" data-ys-transition="slide" data-ys-backgroundTransition="default" data-ys-transitionSpeed="default"><div class="reveal"><div class="slides"><section data-notes="" data-background-video-loop="true" data-background-video-muted="true" data-background-color="" data-transition="slide-in slide-out"><div style="left:77.75555555555556px;top:220px;width:800px;" class="at-block at-block--pure"><article class="at-block-content"><h2>从日常生活谈产品设计</h2></article></div><div style="left:79px;top:360px;width:800px;" class="at-block at-block--pure"><article class="at-block-content"><h5><a href="http://yanshuo.io">@杨常喜</a></h5></article></div></section><style>.at-block{ position:absolute }</style></div></div></div>
+
+    <!-- dependencies -->
+		<script src="https://yanshuo.io/assets/player/lib/js/head.min.js"></script>
+		<script src="https://yanshuo.io/assets/player/js/reveal.min.js"></script>
+
+    <!-- init -->
+    <script>
+      Reveal.initialize({
+        controls: true,
+        history: true,
+        center: false,
+
+        transition:             'slide',
+        backgroundTransition:   'default',
+        transitionSpeed:        'default',
+
+        // no marked.js
+				// no markdown.js
+				// no highlight.js
+				dependencies: [
+					{ src: 'https://yanshuo.io/assets/player/lib/js/classList.js', condition: function() { return !document.body.classList; } },
+					{ src: 'https://yanshuo.io/assets/player/plugin/zoom-js/zoom.js', async: true },
+					{ src: 'https://yanshuo.io/assets/player/plugin/notes/notes.js', async: true }
+				]
+      });
+    </script>
+  </body>
+</html>
